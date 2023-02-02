@@ -286,6 +286,8 @@ input {
     }
 
     .head {
+        display: flex;
+        flex-direction: column;
         background: #111933;
         height: 5%;
         margin: 0px;
@@ -294,6 +296,7 @@ input {
     }
 
     .head-container {
+        flex: 1 0 100%;
         border: solid #dbdbf6 2px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
