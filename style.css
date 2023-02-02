@@ -13,6 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
 }
 
 hr {
@@ -68,6 +69,7 @@ footer {
     width: 100%;
     height: 100px;
     background: #111933;
+    position: sticky;
 }
 
 /*container*/
@@ -297,18 +299,18 @@ input {
 
     .head-container {
         flex: 1 0 100%;
-        border: solid #dbdbf6 2px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        grid-gap: 0px 1px;
+        grid-gap: 0px 2px;
     }
 
-    ul > li, .head2
-    {
+    ul>li,
+    .head2 {
         border: solid #dbdbf6 1px;
 
     }
+
     .head-2 {
         flex: 1 0 100%;
         padding: 1%;
