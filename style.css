@@ -200,7 +200,7 @@ li {
 
 
 .container-item0 {
-
+    border: solid #4e2a47 1px;
     grid-column: 1/-1;
     font-family: 'Shadows Into Light';
     font-size: 25px;
@@ -302,7 +302,7 @@ input {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        grid-gap: 0px 2px;
+        grid-gap: 5px;
     }
 
     ul>li,
