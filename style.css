@@ -200,7 +200,7 @@ li {
 
 
 .container-item0 {
-    border: solid #4e2a47 1px;
+    border: solid #4e2a47 5px;
     grid-column: 1/-1;
     font-family: 'Shadows Into Light';
     font-size: 25px;
