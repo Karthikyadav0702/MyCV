@@ -303,16 +303,10 @@ input {
         grid-gap: 0px 1px;
     }
 
-    li {
-        border-left: solid #dbdbf6 2px;
+    ul > li, .head2
+    {
+        border: solid #dbdbf6 1px;
     }
-
-    li.head2,
-    li.head4,
-    li.head6 {
-        border-left: none #dbdbf6 2px;
-    }
-
     .head-2 {
         flex: 1 0 100%;
         padding: 1%;
